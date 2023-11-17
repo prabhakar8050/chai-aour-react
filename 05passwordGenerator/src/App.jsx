@@ -36,6 +36,8 @@ function App() {
     window.navigator.clipboard.writeText(password);
   }, [password])
 
+  
+
 
   // passwordGenerator();
 
@@ -75,7 +77,7 @@ function App() {
           type='text'
           value={password}
           className='outline-none w-full py-1 px-3'
-          placeholder='passwod'
+          placeholder='password'
           readOnly
           ref={passwordRef}
           />
